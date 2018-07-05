@@ -24,12 +24,7 @@ function draw(){
 
 function debrisSwagger(x,y){
       
-       xpos = xpos + random(-1, 1);
-  // Moving up at a constant speed
-  ypos = ypos - 1;
-  if (ypos < 0) {
-    ypos = height;
-  }
+  
   debrisEntity(x,y);
 
 }
