@@ -24,10 +24,9 @@ function draw(){
 
 function debrisSwagger(x,y){
       
-  
   debrisEntity(x,y);
-
 }
+
 function debrisEntity(x,y){
     stroke(pointcolor);
     point(x,y);//drawn point. replace with image.
