@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+.header{
+    width:100%;
+    background: url('https://d13p2xj50zkyqm.cloudfront.net/promos/health/GLN/masterswitch_chocolateRL_ihtml_0317/HeadlineImage_1.jpg');
+    background-size: 100% 450px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    height:450px;
+    background-repeat: no-repeat;
+background-color: #EEE;
+}
+.paratext{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top:100px;
+    margin-left:100px;
+    font-weight: bold;
+    text-shadow: gray 2px 2px 5px;
+    font-size: 2.5em;
+    color: white;
+}
+.sub_paratext{
+    color:white;
+    margin-left:100px;
+}
+ul {
+    list-style: none;
+  }
+  ul li:before {
+    content: '✓';
+  }
+  li{
+    text-indent: 0px ;
+    }
+.headtext{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+.h_vert_align{
+    padding-top:25px;
+}
+.bloodsugar{
+    color:darkred;
+    font-size: 4em;
+    background: linear-gradient(to right, rgba(100,100,100,0), rgba(100,100,100,1),rgba(100,100,100,0));
+}
+.circlesection{
+    background: linear-gradient(to right,rgba(195, 155, 124,0),rgba(195, 155, 124,1),rgba(195, 155, 124,0));
+}
+.chocCircles{
+    text-align: center;
+}
+a:hover{
+    opacity: .5;
+}
+.parallax{
+  background: url('https://d13p2xj50zkyqm.cloudfront.net/promos/health/GLN/masterswitch_chocolateRL_ihtml_0317/ParallaxOne_5.jpg') no-repeat center center;
+  background-size: cover;
+  background-position-y: 2px;
+  height:330px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.sidebar{
+    margin-top:40px;
+    background-color: #3d1c0f;
+    width:85%;
+    height:250px;
+    color:white;
+}
+.sidebartext{
+    font-size:1.2em;
+    padding-top:30px;
+}
+.sidebartext2{
+    font-size:1.2em;
+}
+.doctor{
+    position: relative;
+    width:100px;
+    height:auto;
+    bottom:30px;
+}
+.chocEnzyme{
+    margin:50px;
+    color:black;
+    margin-left: 100px;
+}
+.redblock{
+    background: url('https://d13p2xj50zkyqm.cloudfront.net/promos/health/GLN/masterswitch_chocolateRL_ihtml_0317/Gears_15.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: #A41F25;
+    background-position-x: 570px;
+    background-position-y:-750px;
+    height:400px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.redblock > div > h3{
+    color:yellow;
+}
+.redblock > div > p{
+    color:white;
+}
+.berbinex{
+   background-color: #495E40; 
+   width:100%;
+   
+}
+
+.lastsection{
+    background: url('https://d13p2xj50zkyqm.cloudfront.net/promos/health/GLN/masterswitch_chocolateRL_ihtml_0317/TransparentArrowBkgd.jpg') no-repeat center center;
+    background-size: cover;
+    height:1200px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.whitegradient{
+    /*background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.75));*/
+    background-color: white;
+    width:80%;
+}
+.lasttextsection{
+    background-color:white;
+
+}
+.deliveryman{
+
+}
+.bottle{
+    height:auto;
+}
+.ordernow{
+    /*Open Sans Condensed*/
+    padding-top:35px;
+    text-align:center;
+    color:white;
+    font-size: 2em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.free{
+    color:#F9D63F;
+    font-size:2em;
+    font-weight:bold;
+    
+}
+.arrow{
+    padding-top:20px;
+    background: url('https://d13p2xj50zkyqm.cloudfront.net/promos/health/GLN/masterswitch_chocolateRL_ihtml_0317/TransparentArrow.png') no-repeat center center;
+    width:auto;
+    height:20px;
+    background-position-y:-40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.orange_button{
+    margin-top:10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align:center;
+    width:350px;
+    background-color:#E47E25;
+    color:white;
+    font-size:2em;
+    border:solid white medium;
+}
+.orange_button > p{
+    font-size:.5em;
+}
+.productlabel > a:link,a:visited{
+ color:#2BB673;
+ text-align:center;
+ font-weight:bold;
+ font-size:2em;
+}
