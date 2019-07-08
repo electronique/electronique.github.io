@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Maitree|Open+Sans&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    
+    background-color:forestgreen!important;
+    background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=c7c7c700&noise=626262&density=93&opacity=74');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color:#f7f7f7!important;
+    background-color:forestgreen!important;
+
+   
+    height:5%!important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Maitree', serif!important;
+    font-weight: 700!important;
+}
+.card{
+    
+    background-color:#ffffff50!important;
+    max-height:max-content;
+    border-radius: 5px;
+}
+
+.card:hover{
+    background-color:rgb(229, 242, 253);
+    
+    transition: .2s;
+}
+h1:hover:after{
+
+content: '\1F342';
+display: inline-block;
+margin-right:10px;
+
+}
+h3.searchcrit{
+    padding-top:25px!important;
+
+}
+.plant-type, .family-name, .water-needs, .associated-wildlife, .ssc{
+    display:none;
+   
+}
+.latin-name, .bloomtime, .flowercolor, .maturity, .cap, .communities, .soil{
+    display:none;
+   
+}
+.pruning, .habitat, .stormwater, .al, .nurseries{
+    display:none;
+   
+}
+
+.sidebar-section {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  
+  }
+  
+  
+  .sidebar-item {
+      
+      position: absolute;
+      top: 70;
+      left: 15;
+      width: 75%;
+      height: 100%;
+      background-color:#f7f7f750!important;
+      border-radius: 5px;
+
+     
+
+     
+      
+  }
+  
+  
+  .make-me-sticky {
+    position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      
+    padding:10px;
+  }
+  label{
+text-transform: uppercase;
+font-family: 'Maitree', serif!important;
+font-size:1em;
+font-weight: 700;
+
+  }
+
+.p-color1{
+color:darkgreen;
+
+}
+.p-color2{
+    color:black;
+    
+}
+.p-color3{
+    color:blue;
+    
+}
+.p-color4{
+    color:brown;
+}
+.p-color5{
+    color:orangered;
+    
+}
+  input[type='checkbox']{
+      background-color:burlywood!important;
+      float:right;
+  }
+  .logo{
+      height:100px;
+      widht:auto;
+  }
+  .navbar-dark{
+      background-color: darkgreen!important;
+  }
+  .fa-leaf{
+    float:right;
+    font-size:2em;
+    color:rgb(252, 206, 0);
+  }
+  
